@@ -14,8 +14,8 @@ Thay vì sử dụng tín hiệu thô, hệ thống thực hiện trích xuất 
 ### B. Kiến trúc Mạng Deep Learning
 Xây dựng mô hình dựa trên mạng CNN 1D và được lấy cảm hứng từ nghiên cứu *"Multi-head de-noising autoencoder-based multi-task model for fault diagnosis of rolling element bearings under various speed conditions"* :
 * **Multi-branch Input:** Tiếp nhận đồng thời hai nhánh dữ liệu (FFT và Envelope) để mô hình có cái nhìn toàn diện về lỗi.
-* **CBAM Attention Mechanism:** Cơ chế chú ý giúp mạng tự động tập trung vào các dải tần số "nhạy cảm" nhất với hư hỏng.
-* **Cơ chế chú ý hợp nhất đặc trưng:** Thay vì cộng hoặc nối (concatenate) dữ liệu một cách thụ động, mô hình sử dụng **Cơ chế chú ý (Attention Mechanism)** để tự động đánh giá tầm quan trọng của từng miền đặc trưng. Giúp mô hình "tập trung" vào nhánh chứa thông tin lỗi rõ ràng nhất tại từng thời điểm, tăng cường khả năng kháng nhiễu và độ chính xác khi các lỗi chồng lấn lên nhau.
+* **CBAM Attention Mechanism:** Cơ chế chú ý giúp mạng tự động tập trung vào các dải tần số nhạy với mỗi loại hư hỏng.
+* **Cơ chế chú ý hợp nhất đặc trưng:** Thay vì cộng hoặc nối (concatenate) dữ liệu một cách thụ động, mô hình sử dụng **Cơ chế chú ý (Attention Mechanism)** để tự động đánh giá tầm quan trọng của từng miền đặc trưng. Giúp mô hình tập trung vào nhánh chứa thông tin lỗi rõ ràng nhất tại từng thời điểm, tăng cường khả năng kháng nhiễu và độ chính xác khi các lỗi chồng lấn lên nhau.
 * **Bộ phân loại đa nhãn (Multi-label Classifier):** Cho phép mô hình dự đoán độc lập sự tồn tại của từng loại lỗi.
 
 
