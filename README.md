@@ -4,7 +4,7 @@
 Trong thực tế công nghiệp, các hư hỏng cơ khí thường xuất hiện đồng thời (lỗi hỗn hợp) và bị che lấp bởi nhiễu môi trường hoặc thay đổi theo tốc độ vận hành. Đồ án tập trung giải quyết việc phân loại chính xác các cụm lỗi: **Lỗi cơ khí (Mechanical Faults)** và **Hư hỏng ổ lăn (Bearing Faults)** xảy ra đồng thời trên cùng một hệ thống.
 
 ## 2. Giải pháp kỹ thuật (Methodology)
-Đồ án đề xuất quy trình kết hợp giữa kiến thức vật lý (Xử lý tín hiệu) và khả năng tự học đặc trưng (Deep Learning):
+Đồ án đề xuất quy trình kết hợp giữa kiến thức vật lý (Xử lý tín hiệu) và khả năng tự trích xuát đặc trưng (Deep Learning):
 
 ### A. Xử lý tín hiệu (Domain Expertise)
 Thay vì sử dụng tín hiệu thô, hệ thống thực hiện trích xuất đặc trưng đa miền:
